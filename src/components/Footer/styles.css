@@ -7,3 +7,7 @@ footer{
      height: 520px;
      background: #020203;
 }
+.footer__content{
+     display: flex;
+     flex-direction: column;
+}
