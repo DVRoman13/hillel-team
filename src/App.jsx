@@ -1,21 +1,17 @@
-import { useState } from 'react'
-
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
-import TopHeader from './components/Header/components/TopHeader'
-
 import './style.scss'
+
+import TopHeader from './components/Header/components/TopHeader'
+import ProductWidget from "./components/ProductWidget/ProductWidget";
 
 
 function App() {
 
-  return (
-    <div className="App">
-      <TopHeader />
-
-    </div>
-  )
+    return (
+        <div className="App">
+            <TopHeader/>
+            <ProductWidget title="New Products"/>
+        </div>
+    )
 }
 
 export default App

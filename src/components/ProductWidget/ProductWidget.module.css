@@ -1,0 +1,27 @@
+.container {
+  max-width: 1394px;
+  margin: 0 auto;
+}
+
+.topBlock {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 14px;
+}
+.topBlock .title {
+  font-size: 22px;
+  font-weight: 600;
+  color: #000000;
+}
+.topBlock .allProducts {
+  color: #0156FF;
+  font-size: 13px;
+  text-decoration-line: underline;
+  transition: color 0.3s ease-in-out;
+}
+.topBlock .allProducts:hover {
+  color: #0130b4;
+}
+
+/*# sourceMappingURL=ProductWidget.module.css.map */
