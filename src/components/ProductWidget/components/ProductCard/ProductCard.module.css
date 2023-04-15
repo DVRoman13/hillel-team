@@ -1,0 +1,76 @@
+.productCard {
+  display: flex;
+  flex-direction: column;
+  max-width: 234px;
+  min-height: 320px;
+  padding: 7px 24.5px 19px;
+  cursor: pointer;
+}
+.productCard .isStockTrue {
+  display: flex;
+  align-items: center;
+  color: #78A962;
+  font-size: 10px;
+  margin-bottom: 8px;
+}
+.productCard .isStockFalse {
+  display: flex;
+  align-items: center;
+  color: #C94D3F;
+  font-size: 10px;
+  margin-bottom: 8px;
+}
+.productCard .icon {
+  margin-right: 6px;
+}
+.productCard .img {
+  max-width: 150px;
+  max-height: 150px;
+  height: 150px;
+  margin: 0 auto 10px;
+}
+.productCard .rating {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.productCard .rating .starts {
+  display: flex;
+  align-items: center;
+  margin-right: 9px;
+  list-style: none;
+}
+.productCard .rating .starts .starActive {
+  display: flex;
+  align-items: center;
+  color: #E9A426;
+}
+.productCard .rating .starts .star {
+  display: flex;
+  align-items: center;
+  color: #CACDD8;
+}
+.productCard .rating span {
+  font-size: 12px;
+  color: #A2A6B0;
+}
+.productCard .title {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 20px;
+  color: #000000;
+  margin-bottom: auto;
+}
+.productCard .fullPrice {
+  text-decoration: line-through;
+  font-weight: 400;
+  font-size: 14px;
+  color: #666666;
+}
+.productCard .price {
+  font-weight: 600;
+  font-size: 18px;
+  color: #000000;
+}
+
+/*# sourceMappingURL=ProductCard.module.css.map */
