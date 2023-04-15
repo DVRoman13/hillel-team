@@ -1,4 +1,4 @@
-import './styles.css'
+import './styles.scss'
 
 export default function Footer(){
      return(
@@ -8,7 +8,7 @@ export default function Footer(){
 
                     </div>
                     <div className='footer__content-bottom'>
-                         
+
                     </div>
                </div>
           </footer>
