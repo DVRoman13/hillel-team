@@ -1,0 +1,30 @@
+.container {
+  max-width: 1394px;
+  margin: 0 auto;
+}
+
+.topBlock {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 14px;
+
+  .title {
+    font-size: 22px;
+    font-weight: 600;
+    color: #000000;
+  }
+
+  .allProducts {
+    color: #0156FF;
+    font-size: 13px;
+    text-decoration-line: underline;
+    transition: color .3s ease-in-out;
+
+    &:hover {
+      color: #0130b4;
+    }
+  }
+}
+
+

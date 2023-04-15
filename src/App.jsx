@@ -1,11 +1,15 @@
 import './style.scss'
-import ProductWidget from "./components/ProductWidget/ProductWidget.jsx";
+
+import TopHeader from './components/Header/components/TopHeader'
+import ProductWidget from "./components/ProductWidget/ProductWidget";
+
 
 function App() {
 
     return (
         <div className="App">
-            <ProductWidget/>
+            <TopHeader/>
+            <ProductWidget title="New Products"/>
         </div>
     )
 }
