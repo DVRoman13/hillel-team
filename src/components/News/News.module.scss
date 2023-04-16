@@ -1,0 +1,42 @@
+.news {
+  max-width: 100%;
+  &__conteiner {
+    margin: 0 auto;
+    max-width: 1920px;
+    // padding: 0 257px 0 257px ;
+    margin: 21px 0px 58px 0px;
+  }
+  &__display {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 5px;
+    &__card {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+  &__images__wrap {
+    width: 235px;
+    height: 152px;
+  }
+  &__text__about {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    &__data {
+      font-family: 'Poppins';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 10px;
+      line-height: 15px;
+    }
+  }
+}
+img {
+  width: 100%;
+}
