@@ -21,15 +21,8 @@ export default function InfoBox({ title, subTitles, isLink }) {
           subTitles.map(subtitle => (
             <p key={subtitle.id} className={styles.datablock__title}>
               {subtitle.title}:&nbsp;
-              <span
-                className={
-                  subtitle.title === 'Phones' || subtitle.title === 'E-mail'
-                    ? styles.datablock__span
-                    : ''
-                }
-              >
-                {subtitle.value}
-              </span>
+              {!subtitle.isLink && <span>{subtitle.value}</span>}
+              {subtitle.isLink && <a href={`${subtitle.isLink.type}:${subtitle.isLink.value}`} className={styles.datablock__span}>{subtitle.value}</a>}
             </p>
           ))}
       </div>

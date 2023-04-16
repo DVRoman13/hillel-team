@@ -2,31 +2,37 @@ export const addressData = [
      {
           title: 'Address',
           value: '1234 Street Adress City Address, 1234',
+          isLink: false,
           id: 1
      },
      {
           title: 'Phones',
           value: '(00) 1234 5678',
+          isLink: {type: 'tel', value: '(00) 1234 5678'},
           id: 2
      },
      {
           title: 'We are open',
           value: 'Monday-Thursday: 9:00AM - 5:30PM',
+          isLink: false,
           id: 3
      },
      {
           title: 'Friday',
           value: '9:00 AM - 6:00 PM',
+          isLink: false,
           id: 4
      },
      {
           title: 'Saturday',
           value: '11:00 AM - 5:00 PM',
+          isLink: false,
           id: 5
      },
      {
           title: 'E-mail',
           value: 'shop@email.com',
+          isLink: {type: 'mailto', value: 'shop@email.com'},
           id: 6
      }
 ]
