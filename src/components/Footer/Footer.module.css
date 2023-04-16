@@ -13,8 +13,6 @@
   margin: 0 auto;
 }
 
-// Footer Top Part //
-
 .footer__contentTop {
   display: flex;
   flex-direction: row;
@@ -65,10 +63,9 @@
   line-height: 20px;
   color: #FFFFFF;
   padding: 0px 10px;
-
-  &::placeholder {
-    color: #FFFFFF;
-  }
+}
+.inputside__input::placeholder {
+  color: #FFFFFF;
 }
 
 .inputside__button {
@@ -83,14 +80,11 @@
   text-align: center;
   color: #FFFFFF;
   border: none;
-  transition: background-color .3s ease-in-out;
-
-  &:hover {
-    background-color: #123e88;
-  }
+  transition: background-color 0.3s ease-in-out;
 }
-
-// Footer Middle Part //
+.inputside__button:hover {
+  background-color: #123e88;
+}
 
 .footer__contentMiddle {
   display: flex;
@@ -101,14 +95,11 @@
   margin-bottom: 36px;
 }
 
-// Footer Bottom Part //
-
 .footer__content_bottom {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-
   border-top: 1px solid rgba(255, 255, 255, 0.2);
   padding: 19.5px 0;
 }
@@ -130,12 +121,11 @@
   color: #FFFFFF;
   opacity: 0.5;
   font-size: 16px;
-  transition: .3s ease-in-out;
+  transition: 0.3s ease-in-out;
   cursor: pointer;
-
-  &:hover {
-    color: #0156FF;
-  }
+}
+.social_icon:hover {
+  color: #0156FF;
 }
 
 .footer__card_icon {
@@ -151,15 +141,15 @@
   gap: 10px;
 }
 
-.content_bottom__text {
-  & p {
-    font-weight: 500;
-    font-size: 12px;
-    line-height: 132.5%;
-    display: flex;
-    align-items: center;
-    text-align: right;
-    color: #FFFFFF;
-    opacity: 0.6;
-  }
+.content_bottom__text p {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 132.5%;
+  display: flex;
+  align-items: center;
+  text-align: right;
+  color: #FFFFFF;
+  opacity: 0.6;
 }
+
+/*# sourceMappingURL=Footer.module.css.map */
