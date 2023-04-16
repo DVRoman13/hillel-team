@@ -2,13 +2,11 @@ import styles from './Footer.module.scss'
 import { AiFillInstagram, AiFillFacebook } from "react-icons/ai";
 import {links} from './Footer.mock'
 
-import paypal from './icons/paypal.png';
-import visa from './icons/visa.png';
-import maestro from './icons/maestro.png';
-import discover from './icons/discover.png';
-import americanexpress from './icons/american-express.png';
-
-
+import paypal from './icons/paypal.svg';
+import visa from './icons/visa.svg';
+import maestro from './icons/maestro.svg';
+import discover from './icons/discover.svg';
+import americanexpress from './icons/american-express.svg';
 
 import InfoBox from './components/InfoBox/InfoBox'
 
