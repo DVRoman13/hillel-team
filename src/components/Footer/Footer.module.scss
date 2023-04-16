@@ -88,3 +88,11 @@ footer{
 
 // Footer Middle Part //
 
+.footer__contentMiddle{
+     display: flex;
+     flex-direction: row;
+     justify-content: flex-start;
+     gap: 78px;
+     margin-top: 45px;
+     margin-bottom: 36px;
+}
