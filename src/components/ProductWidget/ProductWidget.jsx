@@ -7,7 +7,7 @@ import styles from './ProductWidget.module.scss'
 import { data } from './ProductWidget.mock.js'
 
 import ProductCard from './components/ProductCard/ProductCard.jsx'
-import BtnSlider from '../BtnSlider/BtnSlider.jsx'
+import BtnSlider from '../ui/BtnSlider/BtnSlider.jsx'
 
 const ProductWidget = ({ title }) => {
   const settings = {

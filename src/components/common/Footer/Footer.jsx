@@ -9,6 +9,7 @@ import discover from './icons/discover.svg';
 import americanexpress from './icons/american-express.svg';
 
 import InfoBox from './components/InfoBox/InfoBox'
+import SubmitButton from '../../ui/SubmitButton/SubmitButton';
 
 export default function Footer() {
 
@@ -29,7 +30,7 @@ export default function Footer() {
               className={styles.inputside__input}
               placeholder='Your Email'
             ></input>
-            <button className={styles.inputside__button}>Subscribe</button>
+            <SubmitButton />
           </div>
         </div>
         <div className={styles.footer__contentMiddle}>
