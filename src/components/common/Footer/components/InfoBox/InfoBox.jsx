@@ -22,7 +22,14 @@ export default function InfoBox({ title, subTitles, isLink }) {
             <p key={subtitle.id} className={styles.datablock__title}>
               {subtitle.title}:&nbsp;
               {!subtitle.isLink && <span>{subtitle.value}</span>}
-              {subtitle.isLink && <a href={`${subtitle.isLink.type}:${subtitle.isLink.value}`} className={styles.datablock__span}>{subtitle.value}</a>}
+              {subtitle.isLink && (
+                <a
+                  href={`${subtitle.isLink.type}:${subtitle.isLink.value}`}
+                  className={styles.datablock__span}
+                >
+                  {subtitle.value}
+                </a>
+              )}
             </p>
           ))}
       </div>

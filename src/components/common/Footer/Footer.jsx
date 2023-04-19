@@ -1,18 +1,17 @@
 import styles from './Footer.module.scss'
-import { AiFillInstagram, AiFillFacebook } from "react-icons/ai";
-import {links} from './Footer.mock'
+import { AiFillInstagram, AiFillFacebook } from 'react-icons/ai'
+import { links } from './Footer.mock'
 
-import paypal from './icons/paypal.svg';
-import visa from './icons/visa.svg';
-import maestro from './icons/maestro.svg';
-import discover from './icons/discover.svg';
-import americanexpress from './icons/american-express.svg';
+import paypal from './icons/paypal.svg'
+import visa from './icons/visa.svg'
+import maestro from './icons/maestro.svg'
+import discover from './icons/discover.svg'
+import americanexpress from './icons/american-express.svg'
 
 import InfoBox from './components/InfoBox/InfoBox'
-import SubmitButton from '../../ui/SubmitButton/SubmitButton';
+import SubmitButton from '../../ui/SubmitButton/SubmitButton'
 
 export default function Footer() {
-
   return (
     <footer className={styles.footer}>
       <div className={styles.footer__content}>
@@ -34,23 +33,40 @@ export default function Footer() {
           </div>
         </div>
         <div className={styles.footer__contentMiddle}>
-          {links.map(item => <InfoBox key={item.id} {...item} />)}
+          {links.map(item => (
+            <InfoBox key={item.id} {...item} />
+          ))}
         </div>
         <div className={styles.footer__content_bottom}>
           <div className={styles.content_bottom__icons}>
-               <a className={ styles.bottom_icons} href="#"> <AiFillFacebook className={styles.social_icon}/> </a>
-               <a className={ styles.bottom_icons} href="#"> <AiFillInstagram className={styles.social_icon}/> </a>
+            <a className={styles.bottom_icons} href='#'>
+              {' '}
+              <AiFillFacebook className={styles.social_icon} />{' '}
+            </a>
+            <a className={styles.bottom_icons} href='#'>
+              {' '}
+              <AiFillInstagram className={styles.social_icon} />{' '}
+            </a>
           </div>
           <div className={styles.content_bottom__cards}>
-               <div className={styles.footer__card_icon}><img src={paypal} alt="paypal" /></div>
-               <div className={styles.footer__card_icon}><img src={visa} alt="visa" /></div>
-               <div className={styles.footer__card_icon}><img src={maestro} alt="maestro" /></div>
-               <div className={styles.footer__card_icon}><img src={discover} alt="discover" /></div>
-               <div className={styles.footer__card_icon}><img src={americanexpress} alt="americanexpress" /></div>
-
+            <div className={styles.footer__card_icon}>
+              <img src={paypal} alt='paypal' />
+            </div>
+            <div className={styles.footer__card_icon}>
+              <img src={visa} alt='visa' />
+            </div>
+            <div className={styles.footer__card_icon}>
+              <img src={maestro} alt='maestro' />
+            </div>
+            <div className={styles.footer__card_icon}>
+              <img src={discover} alt='discover' />
+            </div>
+            <div className={styles.footer__card_icon}>
+              <img src={americanexpress} alt='americanexpress' />
+            </div>
           </div>
           <div className={styles.content_bottom__text}>
-               <p>Copyright © 2020 Shop Pty. Ltd.</p>
+            <p>Copyright © 2020 Shop Pty. Ltd.</p>
           </div>
         </div>
       </div>
