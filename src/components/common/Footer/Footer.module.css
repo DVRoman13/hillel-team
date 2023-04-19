@@ -26,8 +26,6 @@ footer {
 }
 
 .titleside__title {
-  font-family: "Poppins";
-  font-style: normal;
   font-weight: 500;
   font-size: 38px;
   line-height: 132.5%;
@@ -36,8 +34,6 @@ footer {
 }
 
 .titleside__text {
-  font-family: "Poppins";
-  font-style: normal;
   font-weight: 300;
   font-size: 16px;
   line-height: 132.5%;
@@ -61,13 +57,11 @@ footer {
   background: #000000;
   border: 2px solid #FFFFFF;
   border-radius: 4px;
-  font-family: "Poppins";
-  font-style: normal;
   font-weight: 300;
   font-size: 14px;
   line-height: 20px;
   color: #FFFFFF;
-  padding: 0px 10px;
+  padding: 0 10px;
 }
 .inputside__input::placeholder {
   color: #FFFFFF;
@@ -79,13 +73,16 @@ footer {
   width: 151px;
   height: 50px;
   cursor: pointer;
-  font-family: "Poppins";
-  font-style: normal;
   font-weight: 600;
   font-size: 14px;
   line-height: 21px;
   text-align: center;
   color: #FFFFFF;
+  border: none;
+  transition: background-color 0.3s ease-in-out;
+}
+.inputside__button:hover {
+  background-color: #123e88;
 }
 
 .footer__contentMiddle {
@@ -144,8 +141,6 @@ footer {
 }
 
 .content_bottom__text p {
-  font-family: "Poppins";
-  font-style: normal;
   font-weight: 500;
   font-size: 12px;
   line-height: 132.5%;

@@ -1,8 +1,8 @@
 import './style.scss'
 
-import TopHeader from './components/Header/components/TopHeader'
+import TopHeader from './components/common/Header/components/TopHeader'
 import ProductWidget from "./components/ProductWidget/ProductWidget";
-import Footer from './components/Footer/Footer'
+import Footer from './components/common/Footer/Footer'
 
 
 function App() {
