@@ -9,7 +9,7 @@ const NewsCard = props => {
         <span className={classes.news__text__about}>
         {props.text}
         </span>
-        <span className={classes.news__text__about__data}>01.09.2020</span>
+        <span className={classes.news__text__about__data}>{props.data}</span>
       </div>
     </>
   )
