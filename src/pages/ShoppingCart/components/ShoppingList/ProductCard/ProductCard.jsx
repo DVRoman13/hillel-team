@@ -3,6 +3,8 @@ import React, {useState} from 'react';
 
 import top from './icons/top.svg'
 import bottom from './icons/bottom.svg'
+import cross from './icons/cross.svg'
+import pen from './icons/pen.svg'
 
 
 export default function ProductCard({product}){
@@ -36,7 +38,13 @@ export default function ProductCard({product}){
                          </div>
                     </div>
                </div>
-               <div className={styles.container__column_subtotal}></div>
+               <div className={styles.container__column_subtotal}>
+                    <p>${product.price * value}</p>
+                    <div className={styles.subtotal_edit_buttons}>
+                         <button><img src={cross} alt="cross" /></button>
+                         <button><img src={pen} alt="pen" /></button>
+                    </div>
+               </div>
           </div>
      );
 }
