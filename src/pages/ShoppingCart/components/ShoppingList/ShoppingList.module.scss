@@ -1,0 +1,30 @@
+.shopping_list__container{
+     max-width: 916px;
+}
+
+.shopping_list__container{
+     width: 100%;
+
+}
+
+.container__title_block{
+     display: grid;
+     grid-template-columns: 45% 17% 15% 23%;
+     & h6{
+          font-style: normal;
+          font-weight: 600;
+          font-size: 14px;
+          line-height: 21px;
+          display: flex;
+          align-items: center;
+          color: #000000;
+     }
+     padding-bottom: 13px;
+     border-bottom: 1px solid #CACDD8;
+}
+
+.container__main_block{
+     margin-bottom: 25px;
+}
+
+

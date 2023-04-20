@@ -1,0 +1,88 @@
+.product_card__container{
+     width: 100%;
+     display: grid;
+     grid-template-columns: 45% 17% 15% 23%;
+     padding: 25px 0px;
+     border-bottom: 1px solid #CACDD8;
+}
+
+// First column (Item) //
+
+.container__column_item{
+     display: flex;
+     align-items: flex-start;
+     gap: 29px;
+     padding-right: 26px;
+
+     & img{
+          max-width: 120px;
+          max-height: 120px;
+          height: 120px;
+     }
+     & p{
+          font-style: normal;
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 21px;
+          display: flex;
+          align-items: center;
+          color: #000000;
+     }
+}
+
+// Second column (Price) //
+
+.container__column_price{
+     display: flex;
+     justify-content: flex-start;
+     & p{
+          font-style: normal;
+          font-weight: 600;
+          font-size: 16px;
+          line-height: 24px;
+          text-align: center;
+
+          color: #000000;
+     }
+}
+
+// Third column (Qty) //
+
+.container__column_qty{
+
+}
+.column_qty__input_wrapper{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     gap: 5px;
+     width: 70px;
+     height: 50px;
+     background: #F5F7FF;
+     border: none;
+     border-radius: 6px;
+     & input[type=number]::-webkit-inner-spin-button,
+     input[type=number]::-webkit-outer-spin-button {
+       -webkit-appearance: none;
+       margin: 0;
+     }
+     & input{
+          outline: none;
+          border: none;
+          background-color: transparent;
+     }
+     .button_wrapper{
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          height: 100%;
+          & button{
+               border: none;
+               background: transparent;
+               cursor: pointer;
+               margin: -1px;
+          }
+     }
+}
+
