@@ -28,3 +28,40 @@
 }
 
 
+.container__buttons_block{
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+
+     .buttons_block_right{
+          display: flex;
+          gap: 7px;
+
+          .light{
+               border: 1.5px solid #A2A6B0;
+               background: transparent;
+
+
+               color: #A2A6B0;
+          }
+     }
+     & button{
+          border-radius: 50px;
+          border: none;
+          padding: 8px 28px;
+          font-style: normal;
+          font-weight: 600;
+          font-size: 14px;
+          line-height: 21px;
+          display: flex;
+          align-items: center;
+          text-align: center;
+          cursor: pointer;
+     }
+     .dark{
+          background: #000000;
+          color: #FFFFFF;
+     }
+}
+
+
