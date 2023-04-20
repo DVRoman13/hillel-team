@@ -1,5 +1,76 @@
 .shopping_summary_container{
      max-width: 446px;
+     width: 446px;
      height: auto;
      background: #F5F7FF;
+     padding: 17.5px 10px 25px 32.20px;
+}
+
+// Top Container //
+
+.container_top{
+     display: flex;
+     flex-direction: column;
+}
+
+// title block //
+.container_top__title{
+     display: flex;
+     justify-content: flex-start;
+     width: 100%;
+
+     & h5{
+          font-style: normal;
+          font-weight: 600;
+          font-size: 24px;
+          line-height: 36px;
+          display: flex;
+          align-items: center;
+
+          color: #000000;
+     }
+}
+
+// tax block //
+.container_top__tax{
+     display: flex;
+     justify-content: flex-start;
+     flex-direction: column;
+     width: 100%;
+     margin-top: 18.5px;
+
+     .top__tax_wrapper{
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+          align-items: center;
+          width: 100%;
+
+          & h6{
+               font-style: normal;
+               font-weight: 400;
+               font-size: 18px;
+               line-height: 27px;
+               display: flex;
+               align-items: center;
+
+               color: #000000;
+          }
+          & button{
+               border: none;
+               background: transparent;
+               cursor: pointer;
+          }
+     }
+     & p{
+          font-style: normal;
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 21px;
+          display: flex;
+          align-items: center;
+          color: #666666;
+          margin: 12.4px 0px;
+     }
+
 }
