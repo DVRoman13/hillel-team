@@ -23,16 +23,17 @@ export default function SummaryForm() {
           ))}
         </select>
         <label htmlFor='State/Province'>State/Province</label>
-        <input type='text' className={styles.input}/>
+        <input type='text' className={styles.input} />
         <label htmlFor='Zip/Postal Code'>Zip/Postal Code</label>
-        <input type='number' className={styles.input}/>
+        <input type='number' className={styles.input} />
       </div>
 
       <div className={styles.bottom_inputs_wrapper}>
         <label htmlFor='Standard Rate'>Standard Rate</label>
         <div className={styles.wrapper}>
-          <input type='radio' name='option' checked/>
-          <p>Price may vary depending on the item/destination. Shop Staff will
+          <input type='radio' name='option' checked />
+          <p>
+            Price may vary depending on the item/destination. Shop Staff will
             contact you. $21.00
           </p>
         </div>
