@@ -1,7 +1,5 @@
 import styles from './InfoBox.module.scss'
 
-// import { NavLink } from 'react-router-dom'
-
 export default function InfoBox({ title, subTitles, isLink }) {
   return (
     <div className={styles.infobox__container}>
@@ -22,16 +20,16 @@ export default function InfoBox({ title, subTitles, isLink }) {
         {!isLink &&
           subTitles.map(subtitle => (
             <p key={subtitle.id} className={styles.datablock__title}>
-              {subtitle.title}
-              <span
-                className={
-                  subtitle.title === 'Phones' || subtitle.title === 'E-mail'
-                    ? styles.datablock__span
-                    : ''
-                }
-              >
-                : {subtitle.value}
-              </span>
+              {subtitle.title}:&nbsp;
+              {!subtitle.isLink && <span>{subtitle.value}</span>}
+              {subtitle.isLink && (
+                <a
+                  href={`${subtitle.isLink.type}:${subtitle.isLink.value}`}
+                  className={styles.datablock__span}
+                >
+                  {subtitle.value}
+                </a>
+              )}
             </p>
           ))}
       </div>
