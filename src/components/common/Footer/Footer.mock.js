@@ -35,7 +35,7 @@ export const addressData = [
           isLink: {type: 'mailto', value: 'shop@email.com'},
           id: 6
      }
-]
+
 
 export const links = [
      {
@@ -102,6 +102,6 @@ export const links = [
           subTitles: addressData,
           isLink: false,
           id: 5
-     }
+
 ]
 
