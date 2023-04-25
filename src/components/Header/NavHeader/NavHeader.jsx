@@ -1,5 +1,7 @@
 import React from "react";
-import classes from './NavHeader.module.scss';
+import classes from "./NavHeader.module.scss";
+import LogoHeader from "../LogoHeader/LogoHeader";
+import SearchHeader from "../SearchHeader/SearchHeader";
 
 const NavHeader = () => {
   const navigation = [
@@ -14,10 +16,22 @@ const NavHeader = () => {
   ];
 
   return (
-    <div className="">
-      {navigation.map((el)=> (
-        <button key={el.id}>{el.name}</button>
-      ))}
+    <div className={classes.wrapper}>
+      <div className={classes.container}>
+      <div className={classes.nav}>
+        <LogoHeader />
+        <ul className={classes.nav_list}>
+          {navigation.map((el) => (
+            <li key={el.id}>
+              <a href="#" className={classes.nav_link} key={el.id}>
+                {el.name}
+              </a>
+            </li>
+          ))}
+        </ul>
+      </div>
+      <SearchHeader />
+    </div>
     </div>
   );
 };
