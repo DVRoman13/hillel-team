@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+.header_wrap {
+  background-color: #020202;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 18px;
+  color: #ACACAC;
+  height: 44px;
+  display: flex;
+  align-items: center;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1398px;
+  margin: 0 auto;
+}
+.header__workTime p {
+  position: relative;
+}
+.header__workTime p::before {
+  content: "";
+  position: absolute;
+  top: 4px;
+  right: -13px;
+  width: 4px;
+  height: 4px;
+  border-left: 2px solid white;
+  border-bottom: 2px solid white;
+  transform: rotate(-45deg);
+}
+.header__workTime span {
+  color: #FFFFFF;
+  cursor: pointer;
+  position: relative;
+  display: inline-block;
+  padding: 0 4px;
+  transition: 0.3s ease-in-out;
+}
+.header__workTime span::after {
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: -3px;
+  left: 0;
+  width: 100%;
+  border-bottom: 2px solid white;
+  opacity: 0;
+  transform: scaleX(0);
+  transition: opacity 0.2s ease-in-out;
+}
+.header__workTime span:hover::after {
+  opacity: 1;
+  transform: scaleX(1);
+}
+.header__adress {
+  display: flex;
+}
+.header__adress a {
+  color: #FFFFFF;
+  position: relative;
+  width: 73px;
+  display: block;
+  text-align: center;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+.header__adress a::before {
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: -3px;
+  left: 0;
+  width: 100%;
+  border-bottom: 2px solid white;
+  opacity: 0;
+  transform: scaleX(0);
+  transition: opacity 0.2s ease-in-out;
+}
+.header__adress a:hover::before {
+  opacity: 1;
+  transform: scaleX(1);
+}
+.header__social {
+  display: flex;
+  gap: 14px;
+  color: #FFFFFF;
+}
+.header__social_tel {
+  display: flex;
+}
+.header__social_tel p {
+  margin-right: 4px;
+}
+.header__social_tel_link {
+  color: #FFFFFF;
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+}
+.header__social_tel_link:hover {
+  color: #0156FF;
+}
+.header__social_icons {
+  color: #FFFFFF;
+  font-size: 16px;
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+}
+.header__social_icons:hover {
+  color: #0156FF;
+}
+
+/*# sourceMappingURL=TopHeader.module.css.map */
