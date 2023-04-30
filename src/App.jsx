@@ -9,10 +9,11 @@ import CustomerLogin from './pages/CustomerLogin/CustomerLogin'
 function App() {
   return (
     <div className='App'>
-      <TopHeader />
+      {/* <TopHeader />
       <ProductWidget title='New Products' />
       <News />
-      <Footer />
+      <Footer /> */}
+      <CustomerLogin/>
     </div>
   )
 }
