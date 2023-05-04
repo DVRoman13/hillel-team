@@ -29,7 +29,7 @@ export default function Footer() {
               className={styles.inputside__input}
               placeholder='Your Email'
             ></input>
-            <SubmitButton />
+            <SubmitButton title='Subscribe' />
           </div>
         </div>
         <div className={styles.footer__contentMiddle}>
