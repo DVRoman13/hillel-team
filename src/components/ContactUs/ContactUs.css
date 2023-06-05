@@ -1,0 +1,218 @@
+.contact__us_wrap{
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+}
+
+.contact__us__content{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1399px;
+}
+
+.contact__us__content__left{
+    width:925px;
+}
+
+.contact__us__nav{
+    display: flex;
+    margin-top: 19px;
+}
+
+.contact__us__nav span{
+    margin: 0 8px 0 8px;
+}
+
+.contact__us__nav li {
+    list-style: none;
+}
+
+.contact__us__nav__link{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    color: #000000;
+}
+
+.contact__us__text__title{
+    margin-top: 19px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 48px;
+    color: #000000;
+}
+
+.contact__us__text__subtitle{
+    margin-top: 12px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 30px;
+    color: #000000;
+}
+
+.contact__us__content__right{
+    margin-top: 125px;
+    margin-left: 60px;
+    width: 411px;
+    background: #F5F7FF;
+}
+
+.contact__us__info__item{
+    display: flex;
+    padding-top: 26px;
+}
+
+.contact__us__info__item img{
+    margin-left: 31px;
+    width: 35px;
+    height: 35px;
+}
+
+.contact__us__info__text{
+    margin-left: 10px;
+}
+
+.contact__us__info__title{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    color: #000000;
+}
+
+.contact__us__info__subtitle{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    color: #000000;
+}
+
+.contact__us__info__link{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    color: #0156FF;
+}
+
+.contact__us__input__top{
+    display: flex;
+    margin-top: 10px;
+}
+
+.contact__us__input__item{
+    display: flex;
+    flex-direction: column;
+    margin-top: 11px;
+}
+
+.contact__us__input__item span{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 210%;
+    color: #000000;
+}
+.contact__us__input{
+    margin-right: 30px;
+    margin-top: 10px;
+    background: #FFFFFF;
+    border: 1px solid #A2A6B0;
+    border-radius: 4px;
+    width: 432px;
+    padding: 20px 17px;
+}
+
+.contact__us__input_textarea{
+    width: 908px;
+    height: 236px;
+    margin-top: 14px;
+    resize: none;
+    background: #FFFFFF;
+    border: 1px solid #A2A6B0;
+    border-radius: 4px;
+    padding: 20px 17px;
+}
+
+.contact__us__button{
+    background: #0156FF;
+    margin-top: 16px;
+    border-radius: 50px;
+    width: 151px;
+    height: 50px;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    color: #FFFFFF;
+    border: none;
+    transition: background-color .3s ease-in-out;
+}
+.contact__us__button:hover {
+    background-color: #123e88;
+  }
+
+.contact__us__helpdesk_wrap{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background: #F5F7FF;
+    margin-top: 58px;
+}
+
+.contact__us__helpdesk{
+    display: flex;
+    align-items: center;
+    width: 1055px;
+    padding-top: 61px;
+    padding-bottom: 46px;
+}
+
+.contact__us__helpdesk__item{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 265px;
+    height: auto;
+    margin-left: 130px;
+}
+
+.contact__us__helpdesk__item:first-child{
+    margin-left: 0;
+}
+
+.contact__us__helpdesk__item img{
+    width: 65px;
+    height: 65px;
+}
+
+.contact__us__helpdesk__title{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 132.5%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.contact__us__helpdesk__subtitle{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 140%;
+    text-align: center;
+    opacity: 0.7;
+
+}
+
